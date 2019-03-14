@@ -9,7 +9,7 @@ A7MD.on("guildMemberAdd", member => {
 **
 سلام عليكم 
 لو سمحت ممكن تدخل سيرفرى
-                               [ رابط السيرفر ] 
+                          https://discord.gg/tAav2Mx     [ رابط السيرفر ] 
 الدعووة خاصة لك ... [ ${member}  ]
 **`) 
 }).catch(console.error)
@@ -23,9 +23,11 @@ A7MD.on("guildMemberRemove", member => {
 **
 سلام عليكم 
 لو سمحت ممكن تدخل سيرفرى
-                               [ رابط السيرفر ] 
+                         https://discord.gg/tAav2Mx      [ رابط السيرفر ] 
 الدعووة خاصة لك ... [ ${member}  ]
 **`) 
 }).catch(console.error)
 })
-A7MD.login('التوكين حقك');
+
+
+client.login(process.env.BOT_TOKEN);  //اياكككك تلعب هنا لا تحط توكنك هنا 
